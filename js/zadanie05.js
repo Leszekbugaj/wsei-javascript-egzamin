@@ -4,7 +4,7 @@ const container = document.getElementById("container");
 
 buttons.forEach(element => {
 
-    element.addEventListener("click", () => {
+    element.addEventListener("Click me!", () => {
     
         container.innerText = element.dataset.text;
     });   
