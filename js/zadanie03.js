@@ -1,3 +1,5 @@
+// Zadanie 03
+
 function bigestSUmOfTwoElements(array) {
     if(array.length === 1)
         return array[0];
