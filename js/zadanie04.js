@@ -31,4 +31,13 @@ function getInnerTextsOfElements(elements) {
     return texts;
 }
 console.table(getInnerTextsOfElements(document.getElementsByClassName("sample_class_2")));
+//4
+
+
+
+
+//5
+var allChildren = document.getElementsByClassName('sample_class_3')[0].children;
+
+getTagsOfElements(allChildren);
 
