@@ -1,3 +1,5 @@
+// Zadanie 06
+
 document.addEventListener("DOMContentLoaded", () => {
     var list = document.getElementById("shopping-list");
 
