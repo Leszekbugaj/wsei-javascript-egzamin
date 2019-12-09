@@ -1,3 +1,5 @@
+// Zadanie 01
+
 function getSquare(n) {
     return Math.sqrt(n);
 }
