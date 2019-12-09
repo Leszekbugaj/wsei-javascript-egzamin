@@ -1,11 +1,10 @@
+let buttons = document.getElementsByTagName("Guzik");
 
-const buttons = document.querySelectorAll("button");
-const container = document.getElementById("container");
-
-buttons.forEach(element => {
-
-    element.addEventListener("Click me!", () => {
+Array.from(buttons).forEach(button => {
     
-        container.innerText = element.dataset.text;
-    });   
+    button.addEventListener("Kliknij", () => {
+        
+        document.getElementById("container").innerHTML = button.getAttribute("data-text");
+        
+    });
 });
