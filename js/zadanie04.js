@@ -1,3 +1,5 @@
+// Zadanie 04
+
 //1
 function getTagsOfElements(elements) {
    
