@@ -1,6 +1,6 @@
 // Zadanie 05
 
-let buttons = document.getElementsByTagName("Guzik");
+let buttons = document.getElementsByTagName("Button");
 
 Array.from(buttons).forEach(button => {
     
