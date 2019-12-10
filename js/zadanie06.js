@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
         
     });
 
-    document.getElementById("button-2").addEventListener("click", () => {
-        list.removeChild(list.children[list.children.length - 1]);
+    let button2 = document.getElementById("button-2");
+    button2.addEventListener("click", () => {
+        if (ul.lastElementChild !== null) ul.lastElementChild.remove()
         
     });
 
